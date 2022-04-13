@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: testapp
-        image: {{NEW_IMAGE}}
+        image: sri7272/test-python:{{CF_BRANCH_TAG_NORMALIZED}}
         ports:
         - containerPort: 80
